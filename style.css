@@ -171,8 +171,6 @@ div#psicon-div {
 div#filtreps-div {
     display: grid;
     align-items: center;
-    /* flex-direction: row; */
-    /* flex-wrap: wrap; */
     max-width: 500px;
 }
 div#pop-div-resultshow {
@@ -184,6 +182,17 @@ div#pop-div-resultshow {
 }
 #psicon-div img {
     vertical-align: middle;
+}
+.hebshow-div:hover {
+    cursor: pointer;
+}
+
+.maracshow-div:hover {
+    cursor: pointer;
+}
+
+.popshow-div:hover {
+    cursor: pointer;
 }
 
 p#pctxt-p {
