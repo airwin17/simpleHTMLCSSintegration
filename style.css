@@ -15,6 +15,7 @@ body{
     font-style: normal;
     margin-left: 50px;
     margin-bottom: 0px;
+    max-width: 1400px;
     margin-top: 0px;
 }
 input#search-input-txt:focus-visible {
@@ -49,6 +50,34 @@ div#innerlog {
     flex-direction: row;
    
 }
+a#nav-bar-div-1 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+
+a#nav-bar-div-1:active {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
+
+a#nav-bar-div-2 {
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+}
+
+a#nav-bar-div-2:active {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+}
 nav#nav-bar {
     display: grid;
     text-align: center;
@@ -61,7 +90,6 @@ nav#nav-bar {
 }
 
 div#nav-bar-1 {
-    border-top: 3px solid #0065FC;
 }
 
 div#nav-bar-2 {
@@ -224,12 +252,11 @@ p#pop-txt {
     border-radius: 20px;
     margin: 10px;
     min-height: 160px;
-    max-height: 225px;
+    max-height: 180px;
     min-width: 250px;
     display: grid;
     flex-basis: 25%;
     overflow: hidden;
-    max-width: 500px;
     grid-template-columns: 4fr 5fr;
     box-shadow: 0px 5px 7px 0px #dcdcdc;
     grid-template-rows: 4fr 1fr;
@@ -276,7 +303,7 @@ div#heb-div {
     display: grid;
     grid-template-rows: 60% 15% 15% 10%;
     max-height: 250px;
-    max-width: 325px;
+    /* max-width: 325px; */
     background-color: white;
     border-radius: 20px;
     box-shadow: 0px 5px 7px 0px #dcdcdc;
@@ -319,8 +346,7 @@ div#act-div {
 }
 .maracshow-div {
     overflow: hidden;
-    max-width: 325px;
-    max-height: 440px;
+    max-height: 350px;
     flex: 1 1 0;
     margin: 10px;
     display: grid;
@@ -426,9 +452,10 @@ div#aff {width: 100%;}
         /* justify-content: center; */
     }
     .popshow-div{
-        width: 60%;
+        width: 90%;
         padding-right:10px;
         flex: 1 1 0;
+        object-fit: cover;
         /* margin-right: auto; */
         /* max-width: 90%; */
         /* min-width: 75%; */
@@ -501,9 +528,10 @@ nav#nav-bar{
         
     }
     .maracshow-div {
-        flex: 1 1 500px;
+        flex: 1 1 700px;
         margin-left: auto;
         margin-right: auto;
+        width: 80%;
     }
     .popshow-div{
         flex: 1 1 30%;
@@ -525,7 +553,5 @@ nav#nav-bar{
         
     }
     .hebshow-div{
-        margin-left: auto;
-        margin-right: auto;
     }
 }
