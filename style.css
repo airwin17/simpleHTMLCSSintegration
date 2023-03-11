@@ -129,6 +129,7 @@ p.catagorie-txt {
     font-weight: 700;
     font-size: 17px;
     line-height: 20px;
+    user-select: none;
     margin: 0;
 }
 p#heb-p {
@@ -175,7 +176,7 @@ input#search-iput-button {
     align-items: center;
     margin: 5px;
     margin-left: 20px;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 div#filtre-div {
     grid-template-columns: 1fr 1fr;
