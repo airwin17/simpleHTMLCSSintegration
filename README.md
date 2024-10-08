@@ -1,6 +1,6 @@
 ## Description
 This is simple html css satic and responsive web page
-##How to use
+## How to use
 Just open index.html in broswer
 ## Technologies Used
 - HTML5
